@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(pages.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+ border: 5px solid #fff;
+ height: 350px;
+ width: 350px;
+ background: rgba(0, 0, 0,0.70);
+ border-radius: 15px;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.small
+{
+height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+input
+{
+    border: 3px solid #fff;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 8px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+::placeholder
+{
+    color: #fff;
+}
+button
+{
+    border: 3px solid #fff;
+    padding: 10px 35px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+button:hover
+{
+cursor: pointer;
+}
+.button
+{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
